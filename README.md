@@ -30,7 +30,7 @@ This project provides a local, OpenAI-compatible text-to-speech (TTS) API using 
 The simplest way to get started without having to configure anything is to run the command below
 
 ```bash
-docker run -d -p 5050:5050 travisvn/openai-edge-tts:latest
+docker run -d -p 5004:5004 guenter-chao/openai-edge-tts:latest
 ```
 
 This will run the service at port 5050 with all the default configs
@@ -57,7 +57,7 @@ cd openai-edge-tts
 2. **Environment Variables**: Create a `.env` file in the root directory with the following variables:
 
 ```
-API_KEY=your_api_key_here
+API_KEY=sk_spuer_moomoo
 PORT=5004
 
 DEFAULT_VOICE=en-US-AvaNeural
