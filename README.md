@@ -50,7 +50,7 @@ _(Docker required, obviously)_
 1. **Clone the Repository**:
 
 ```bash
-git clone https://github.com/travisvn/openai-edge-tts.git
+git clone https://github.com/guenter-chao/openai-edge-tts.git
 cd openai-edge-tts
 ```
 
@@ -58,7 +58,7 @@ cd openai-edge-tts
 
 ```
 API_KEY=your_api_key_here
-PORT=5050
+PORT=5004
 
 DEFAULT_VOICE=en-US-AvaNeural
 DEFAULT_RESPONSE_FORMAT=mp3
